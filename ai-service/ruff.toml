@@ -1,0 +1,5 @@
+line-length = 100
+extend-exclude = ["generate_notebook.py", "*.ipynb"]
+
+[lint]
+select = ["E", "F", "I", "UP"]
