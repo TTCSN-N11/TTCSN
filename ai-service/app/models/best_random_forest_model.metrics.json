@@ -1,0 +1,41 @@
+{
+  "modelVersion": "best_random_forest_model",
+  "features": [
+    "Bp",
+    "Sg",
+    "Al",
+    "Su",
+    "Rbc",
+    "Bu",
+    "Sc",
+    "Sod",
+    "Pot",
+    "Hemo",
+    "Wbcc",
+    "Rbcc",
+    "Htn"
+  ],
+  "threshold": 0.5,
+  "metrics": {
+    "recall_ckd": 1.0,
+    "precision": 1.0,
+    "roc_auc": 1.0,
+    "f1_macro": 1.0,
+    "confusion_matrix": [
+      [30, 0],
+      [0, 50]
+    ]
+  },
+  "trainedAt": "2026-10-15T08:08:25Z",
+  "libraryVersions": {
+    "scikit-learn": "1.6.1",
+    "optuna": "3.x"
+  },
+  "dataset": {
+    "totalRows": 400,
+    "classBalance": {
+      "ckd": 250,
+      "notckd": 150
+    }
+  }
+}
